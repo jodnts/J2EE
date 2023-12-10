@@ -1,0 +1,76 @@
+/* CSS pour la section de présentation des produits */
+.pres {
+    margin-top: 20px;
+}
+
+/* CSS pour chaque produit dans le panier */
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+/* CSS pour chaque produit dans le panier */
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    max-width: 10px; /* Ajoutez cette ligne pour limiter la largeur des cellules */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* CSS pour le bouton "Payer" */
+button#payer {
+    background-color: #363738;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 150px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; /* Aligner le bouton à droite */
+}
+
+/* CSS pour les boutons du panier */
+button {
+    background-color: transparent; /* Arrière-plan transparent */
+    border: none; /* Pas de bordure */
+    padding: 0; /* Aucun rembourrage */
+    cursor: pointer;
+}
+
+.plus {
+    margin-left: 30px;
+}
+
+.less {
+}
+
+.quantity {
+    margin-left: 13px;
+
+}
+
+.poubelle {
+    max-width: 25px;
+    align-content: center;
+}
+
+#total {
+    text-align: right;
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 45px;
+    background-image: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d); /* Dégradé de couleurs */
+    -webkit-background-clip: text; /* Applique le dégradé au texte */
+    color: transparent;
+}

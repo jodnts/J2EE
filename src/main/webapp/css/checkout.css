@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto 100px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+input[type="submit"] {
+    color: #808080; /* Rendre le texte transparent */
+    border: 4px solid;
+    border-image: linear-gradient(to right, #f36f6f, #ffcc29, #82c4ff, #3b82f6) 1;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: large; /* Taille initiale du texte */
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #f36f6f, #ffcc29, #82c4ff, #3b82f6);
+    color: white;
+    font-size: large; /* Maintenir la taille du texte au survol */
+
+}
+
+.cart-summary {
+    position: fixed;
+    top: 300px;
+    right: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-items li {
+    margin-bottom: 5px;
+}
+
+.cart-summary hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.cart-summary p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item-image img {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+    margin-right: 10px;
+}
+
+.item-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.confPaiement h1{
+    margin-top: 100px;
+}

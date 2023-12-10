@@ -1,0 +1,36 @@
+.manage form input[type="submit"] {
+    background-color: #4e5257;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:310px;
+    margin-top: 5px;
+}
+
+.manage form label {
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    align-content: center;
+}
+
+.manage {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement si nécessaire */
+    /* Autres styles */
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 40px;
+    background-image: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d); /* Dégradé de couleurs */
+    -webkit-background-clip: text; /* Applique le dégradé au texte */
+    color: transparent;
+}

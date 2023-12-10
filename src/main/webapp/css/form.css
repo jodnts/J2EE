@@ -1,0 +1,43 @@
+/* Alignement et marges pour le formulaire */
+form {
+    width: 30%; /* Ajuster la largeur du formulaire */
+    margin: 0 auto; /* Centrer horizontalement */
+    background-color: #ffffff;
+    padding: 30px;
+    box-sizing: border-box; /* Inclure les paddings dans la largeur du formulaire */
+}
+
+/* Alignement des champs et marges */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.productimage {
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%; /* Remplir la largeur du formulaire */
+    padding: 10px; /* Ajuster le padding */
+    margin-bottom: 10px; /* Espacement entre les champs */
+    border: 1px solid #ccc;
+
+    box-sizing: border-box; /* Inclure les paddings et les bordures dans la largeur du champ */
+    font-size: large;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d);
+
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d);
+    color: white;
+}

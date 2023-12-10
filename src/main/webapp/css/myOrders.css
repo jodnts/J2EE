@@ -1,0 +1,43 @@
+/* Styles CSS */
+
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.order-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 50px;
+    background-image: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d); /* Dégradé de couleurs */
+    -webkit-background-clip: text; /* Applique le dégradé au texte */
+    color: transparent;
+}
+
+.orderID {
+    font-weight: bold;
+}
+
+.state {
+    float: right;
+    margin-right: 20px;
+    font-size: large;
+    background-image: linear-gradient(to right, rgba(59, 180, 28, 0.5), #19718d); /* Dégradé de couleurs */
+    -webkit-background-clip: text; /* Applique le dégradé au texte */
+    color: transparent;
+}
+
+.noOrder {
+    text-align: center;
+    margin: 0;
+}

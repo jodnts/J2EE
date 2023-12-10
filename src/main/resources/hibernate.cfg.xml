@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration
+DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory >
+    <!-- local connection properties -->
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/j2e</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.username">root</property>
+    <!-- dialect for MySQL -->
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property> <!-- mode de discussion entreHibernate et
+    la BDD -->
+    <property name="hibernate.show_sql">true</property> <!--  Hibernate affiche ou non touteslesrequetesSQL passées
+    à la BDD -->
+    <property name="hibernate.format_sql">true</property>
+    <!--<property name="hibernate.hbm2ddl.auto">update</property>-->
+    <property name="hibernate.globally_quoted_identifiers">true</property>
+    <!-- Ajout de la ligne pour spécifier le gestionnaire de transactions -->
+    <property name="hibernate.archive.autodetection">class, hbm</property>
+
+    <mapping class="com.example.demo1.model.User"/>
+    <mapping class="com.example.demo1.model.Product"/>
+    <mapping class="com.example.demo1.model.CartItem"/>
+    <mapping class="com.example.demo1.model.Modo"/>
+    <mapping class="com.example.demo1.model.Order"/>
+
+    <!--<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+-->
+</session-factory>
+</hibernate-configuration>
